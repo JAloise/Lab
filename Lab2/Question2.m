@@ -42,3 +42,5 @@ title('DTFT');
 xfft = fft(x);
 y = abs(xfft);
 subplot(2,2,4);
+plot(w, y);
+xlabel('w') ylabel('magnitude') title('DTFT using "fft"')
